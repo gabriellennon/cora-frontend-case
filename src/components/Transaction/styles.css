@@ -1,0 +1,70 @@
+
+.transaction {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.transaction:last-child {
+  border-bottom: none;
+}
+
+.transaction-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #6b7280;
+}
+
+.icon.received {
+  color: #3b82f6;
+}
+
+.icon.refund {
+  color: #d1d5db;
+}
+
+
+.merchant {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.type {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.transaction-details {
+  text-align: right;
+}
+
+.date-time {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.amount {
+  font-weight: 500;
+}
+
+.amount.positive-amount {
+  color: #3b82f6;
+}
+
+.amount.negative-amount {
+  color: #1f2937;
+}
+
+.amount.refund-amount {
+  color: #1f2937;
+  text-decoration: line-through;
+}

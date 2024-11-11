@@ -16,7 +16,7 @@ Teste para vagas de frontend da [Cora](https://www.cora.com.br) :heartbeat:
   - [Entreguei, e agora?](enteguei-e-agora)
 - [License](#license)
 
-# Summary of what was implemented :done:
+# Summary of what was implemented :white_check_mark:
 Nota do desenvolvedor Gabriel Lennon:
 Olá, obrigado por avaliar meu teste, nessa solução comecei implementando uma arquitetura de pastas escalável para futuras features. Criei também novos componentes, e 
 contexts e hooks para gerenciar estados da aplicação mais facilmente e para melhorar a performance evitando problemas como Prop Drilling, assim como também separei

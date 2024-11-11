@@ -16,7 +16,7 @@ export const TodoItem = ({ item, index, onDelete, onStatusChange }: TodoItemProp
         </div>
       )}
       <div className="todo__actions">
-        <button onClick={() => onDelete(item.id)}>delete</button>
+        <button id="delete" className="delete" onClick={() => onDelete(item.id)}>delete</button>
         <button onClick={() => onStatusChange(item.id, item.status)}>
           change to <strong><u>{item.status === "done" ? "pending" : "done"}</u></strong>
         </button>

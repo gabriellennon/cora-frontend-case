@@ -5,6 +5,7 @@ Teste para vagas de frontend da [Cora](https://www.cora.com.br) :heartbeat:
 
 # Quick Menu
 
+- [Summary of what was implemented](#summary-of-what-was-implemented-done)
 - [Hey There](#hey-there-wave)
   - [Principais tarefas](#principais-tarefas)
 - [Como começar](#como-começar)
@@ -14,6 +15,24 @@ Teste para vagas de frontend da [Cora](https://www.cora.com.br) :heartbeat:
 - [Como entregar](#como-entregar)
   - [Entreguei, e agora?](enteguei-e-agora)
 - [License](#license)
+
+# Summary of what was implemented :done:
+Nota do desenvolvedor Gabriel Lennon:
+Olá, obrigado por avaliar meu teste, nessa solução comecei implementando uma arquitetura de pastas escalável para futuras features. Criei também novos componentes, e 
+contexts e hooks para gerenciar estados da aplicação mais facilmente e para melhorar a performance evitando problemas como Prop Drilling, assim como também separei
+os services em um pasta isolada. Adicionei teste unitários que podem ser rodados com o comando
+```bash
+  npm run test
+```
+E adicionei também testes E2E com Cypress que podem ser executados com:
+```bash
+  npm run cypress:open
+```
+ou
+```bash
+  npm run cypress:run
+```
+Para garantir a confiabilidade da nossa aplicação. Fique a vontade para fazer qualquer dúvida, nos vemos em breve! :)
 
 # Hey There :wave:
 

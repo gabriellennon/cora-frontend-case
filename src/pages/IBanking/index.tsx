@@ -26,11 +26,13 @@ function IBanking() {
     <>
       <Header />
       <div className="container">
-        <FilterTabs filter={filter} setFilter={setFilter} />
-        {data && data.results.map(group => (
+        {data && !error?.length && (
+          <FilterTabs filter={filter} setFilter={setFilter} />
+        )}
+        {data && !error?.length && data.results.map(group => (
           <TransactionGroup key={group.date} group={group} filteredItems={filteredItems || []} />
         ))}
-        {!data || error && (
+        {error && (
           <div className="container">
             <h2>Ops, algo deu errado.</h2>
             <button

@@ -20,7 +20,7 @@ Teste para vagas de frontend da [Cora](https://www.cora.com.br) :heartbeat:
 Nota do desenvolvedor Gabriel Lennon:
 Olá, obrigado por avaliar meu teste, nessa solução comecei implementando uma arquitetura de pastas escalável para futuras features. Criei também novos componentes, e 
 contexts e hooks para gerenciar estados da aplicação mais facilmente e para melhorar a performance evitando problemas como Prop Drilling, assim como também separei
-os services em um pasta isolada. Adicionei teste unitários que podem ser rodados com o comando
+os services em um pasta isolada. Fiz algumas correções no back-end que estavam dando erro também. Além disso Adicionei teste unitários que podem ser rodados com o comando
 ```bash
   npm run test
 ```
